@@ -1,0 +1,317 @@
+@import url('http://fonts.googleapis.com/css?family=Merienda+One');
+
+@import url('http://fonts.googleapis.com/css?family=Arizonia');
+
+@import url('http://fonts.googleapis.com/css?family=Berkshire+Swash');
+
+/*************************Nav Bar**************************/
+
+.container-fluid{
+	background-color: #003366;/*#5e3763;*/
+	font-size: 20px;
+}
+
+.navbar-custom{
+	border-color: #003366 !important;
+}
+.navbar{
+	margin-bottom:0 !important; //override the bootstrap css
+}
+
+.navbar-nav>li>a {
+	/*color:#FFF !important;*/
+	color: #D4AF37 !important;/*#d4af37 !important;*/
+}
+.navbar-nav>li>a:hover {
+	/*color:#009999 !important;*/
+	 /*color: #d4af37 !important;*/
+	 color:#FFF !important;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+	color:#FFF !important;	
+	background-color: #003366 !important;
+}
+
+.navbar-nav>li>a:active {
+	/*color:#009999 !important;*/
+	 /*color: #d4af37 !important;*/
+	 color:#FFF;
+}
+.navbar-inverse .navbar-brand {
+    color: #d4af37 !important;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+	background-color: #003366 !important;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+	background-color: #003366 !important;
+}
+
+
+/*****************************MEGA MENU**************************************/
+.mega-dropdown{
+  position: static !important;
+}
+
+.mega-dropdown-menu {
+  padding: 20px 0px;
+  width: 97%;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  padding-top: 0px !important;
+  padding-bottom: 0 !important;
+}
+
+/*.mega-dropdown-menu:before {
+  content: "";
+  border-bottom: 15px solid #fff;
+  border-right: 17px solid transparent;
+  border-left: 17px solid transparent;
+  position: absolute;
+  top: -15px;
+  left: 630px;
+  z-index: 10;
+}*/
+
+
+.mega-dropdown-menu .dropdown-header {
+  color: #248f8f;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mega-menu-image{
+	position: relative;
+	margin-bottom:20px;
+}
+
+.mega-menu-text-block{
+	position: absolute;
+	bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.75);/*black;*/
+    color: #248f8f;
+    padding-left: 10px;
+    padding-right: 20px;
+	width: 190px;
+	text-align: left;
+	
+}
+
+.mega-dropdown-menu > li > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #233957;
+  white-space: normal;
+  width: 60%;
+}
+
+.mega-dropdown-menu,.mega-menu-image > li > a:hover{
+	color:#009999;
+}
+
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+  /*color: #d4af37;*/
+  /*color:#29a3a3;*/
+  color:#009999;
+  background-color: #e6e6e6;/*#f2f2f2;/*rgba(204, 204, 204,0.1);*/
+}
+
+
+.mega-menu-image-column{
+	height: 455px;
+	background-color:rgba(204, 204, 204,0.7);
+	/*background-color: #999999;*/
+}
+
+.mega-menu-content-column{
+	height: 455px;
+	background-color:rgb(204, 204, 204);
+}
+
+.navbar-nav>li>.dropdown-menu {
+    margin: auto 0;
+    width: 100%;
+}
+
+
+/**********************Main content***************************/
+.container{
+	
+}
+body {
+	
+	/*font-family: 'Berkshire Swash',Arizonia, Helvetica, 'Open Sans', sans-serif;
+	/*font-family:'Open Sans', sans-serif;*/
+	/*margin:0 auto;
+	/*color:#000000 !important;*/
+	background-color: #f1f1f1 !important;*/
+}
+
+p{
+	line-height: 150%;
+	font-size: 16px;
+}
+
+h2{
+	padding: 20px 20px;
+	font-weight:bold;
+}
+
+
+/********************Body Header********************************/
+header{
+	background-color: #FFF;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.crest{
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom : 10px;
+}
+
+.header-crest-image{
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom : 10px;
+}
+
+
+/************************Index Header Photo*****************************/
+
+
+h1{
+	text-align: center;
+	color: #003366 !important;
+	font-weight: bold;
+	font-family: 'Berkshire Swash' !important;
+}
+
+.fa fa-heart{
+	color: #ff4d4d !important;
+}
+
+i{
+	color: #ff4d4d;
+}
+
+
+/*******************************Image Gallery**************************/
+
+.thumbnail{
+	background-color: #fff;
+    border: 5px solid #003300;
+    border-radius: 4px;
+	height: 370px;
+	width: 250px;
+	background-color: #ccccff !important;
+}
+
+.center-image{
+	display: block;
+	margin: auto;
+	width : 200px;
+	height: 220px;
+}
+
+
+/****************************Responsive Gallery**********************************/
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content-blue {
+    background-color: #ccccff; /*#ccccff*/ /*#6699cc*/
+    padding: 10px;
+}
+
+.content-pink {
+    background-color: #ffcccc;/*#ff99ff;*/ /*#ffcccc*/ /*#ffe6e6*/
+    padding: 10px;
+}
+
+.content-neutral {
+    background-color: #ffffcc;
+    padding: 10px;
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+/****************************Bottom Footer*************************************/
+.design {
+    color: #fff;
+    line-height: 30px;
+    min-height: 25px;
+    padding: 7px 0;
+    text-align: right;
+}
+
+.copyright {
+    color: #fff;
+    line-height: 30px;
+    min-height: 25px;
+    padding: 7px 0;
+}
+.design a {
+    color: #fff;
+}
+
+.footer-bottom{
+	background-color: #003366;/*#003300;/*#5e3763;*/
+}
